@@ -11,7 +11,7 @@ function sendMail($subject, $body, $userEmail, $userName): bool {
         $mail->Host = 'ssl0.ovh.net';
         $mail->SMTPAuth = true;
         $mail->Username = 'no-reply@rayaanuddin.com';
-        $mail->Password = 'Rayaan10Nadia3004.';
+        $mail->Password = 'Test1234!';
         $mail->SMTPSecure = 'starttls';
         $mail->Port = 587;
 

@@ -1,0 +1,7 @@
+{
+  "require": {
+    "stripe/stripe-php": "v14.0.0",
+    "phpmailer/phpmailer": "v6.9.1",
+    "ext-json": "*"
+  }
+}

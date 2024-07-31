@@ -1,0 +1,101 @@
+/* verification.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.verification-container {
+    background-color: white;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.3rem 0.5rem 0 #00000042;
+    padding: 2rem;
+    text-align: center;
+    max-width: 23rem;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin-bottom: 2rem;
+    color: #666;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrap-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.wrap-input input {
+    font-size: 1rem;
+    border: none;
+    border-bottom: 0.2rem solid #adadad;
+    width: 2.5rem;
+    text-align: center;
+    padding: 0.5rem 0;
+    transition: all 0.3s;
+}
+
+.wrap-input input:focus {
+    border-bottom: 0.2rem solid black;
+    outline: none;
+}
+
+input[type="submit"], .button-style {
+    display: block;
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 0.3s;
+    font-size: 0.8rem;
+}
+
+input[type="submit"]:hover, .button-style:hover {
+    background-color: #0056b3;
+}
+
+input[type="submit"]:active, .button-style:active {
+    background-color: #004286;
+}
+
+input[type="submit"]:disabled, .button-style:disabled {
+    background-color: #adadad;
+    cursor: not-allowed;
+}
+
+form {
+    margin: 0;
+}
+
+form + form {
+    margin-top: 1rem;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+

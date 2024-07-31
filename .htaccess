@@ -1,0 +1,14 @@
+# Enable the Rewrite Engine
+RewriteEngine On
+
+# Rewrite rule to redirect all requests to /app/index.php
+RewriteRule ^$ app/index.php [L]
+RewriteRule (.*) app/$1 [L]
+
+# Preserve query strings
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . app/index.php [L]
+
+# Optional: Custom 404 Error Page
+ErrorDocument 404 /app/404.html

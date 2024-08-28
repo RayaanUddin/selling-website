@@ -1,4 +1,4 @@
-# Ecommerce Website with Strip API (PHP)
+# Ecommerce Website with Stripe API (PHP)
 
 This is a simple Ecommerce website with Strip API integration. This project is created using PHP, MySQL, HTML, CSS, and JavaScript. This project is a simple Ecommerce website where users can buy products and pay for them using Strip API.
 

@@ -1,6 +1,6 @@
 # Ecommerce Website with Stripe API (PHP)
 
-This is a simple Ecommerce website with Strip API integration. This project is created using PHP, MySQL, HTML, CSS, and JavaScript. This project is a simple Ecommerce website where users can buy products and pay for them using Strip API.
+This is a simple Ecommerce website with Stripe API integration. This project is created using PHP, MySQL, HTML, CSS, and JavaScript. This project is a simple Ecommerce website where users can buy products and pay for them using Stripe API.
 
 ## Features
 1. **Users.** Allows users to register, login, and manage their accounts. Accounts are used to hold their customer id of stripe, allowing basket items to be saved to their account.
